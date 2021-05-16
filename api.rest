@@ -1,0 +1,13 @@
+###
+GET http://localhost:3000/
+Authorization: Beare eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsImlhdCI6MTYyMTE0OTQ1NiwiZXhwIjoxNjIxMTQ5NDcxfQ.1H-k6otv_BPdOx4WZ01N5Ih-jqSGZ6wbWfpAUWn0lEc
+
+
+
+###
+POST http://localhost:4000/login 
+Content-Type: application/json
+
+{
+    "name": "Kyle"
+}
